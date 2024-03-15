@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateMixin {
   final String _title = "Hello there";
-  final int max = 255;
+  final int max = 256;
   static const int _animationDuration = 500;
 
   late AnimationController _animationController;
